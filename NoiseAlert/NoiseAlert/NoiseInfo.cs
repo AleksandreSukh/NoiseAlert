@@ -41,6 +41,7 @@ namespace NoiseAlert
             }
             var device = devices.FirstOrDefault();
 
+            //TODO:We have a memory leak here (soundIn should be cleared from time to time). needs to be fixed!
             //create a new soundIn instance
             using (WasapiCapture soundIn = new WasapiCapture())
             {
