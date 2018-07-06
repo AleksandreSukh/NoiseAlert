@@ -54,6 +54,7 @@
     <Compile Include="ConcuurentCircularBuffer.cs" />
     <Compile Include="ICircularBuffer.cs" />
     <Compile Include="NoiseInfo.cs" />
+    <Compile Include="NoiseMonitor.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
